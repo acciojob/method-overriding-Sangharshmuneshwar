@@ -11,8 +11,8 @@ public class Main {
     }
 
     public static class B extends A{
-        B(){
-            super();meth();
+       public B(){
+            super.meth();
         }
         @Override
         public String meth(){
